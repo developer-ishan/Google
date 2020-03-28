@@ -1,0 +1,72 @@
+*{
+        box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items:center;
+    }
+        header .p{
+        background-color: darkcyan;
+        text-align: center;
+        border-radius: 50%;
+        float: left;
+        color: white;
+        padding: 10px 15px 10px 15px;
+    }
+    header a{
+        color: gray;
+        margin:4px 4px 4px 4px;
+        float: left
+    }
+    main .logo{
+        display: flex;
+        justify-content: center;
+        margin-top: 140px;
+        margin-bottom: 20px;
+        padding: 0 60px 0 60px;
+    }
+    main .searchbar{
+        display: flex;
+        justify-content: center;
+    }
+    input[type=text] {
+        border: 2px solid #ccc;
+        width: 40%;
+        border-radius: 4px;
+        font-size: 12px;
+        background-color: white;
+        background-image: url('searchicon.png');
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 10px 20px 10px 40px;
+        }
+    main .btn{
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    main .btn button{
+        background-color:lightgray;
+        color: rgb(68, 67, 67) ;
+        margin-left: 10px;
+        border:none ;
+        padding: 5px 15px;
+    }
+    main p{
+        text-align: center;
+        width: 100%;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        position:fixed;
+        top:90%;
+    }
+    footer p{
+        width: 100%;
+    }
